@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/build/static/css/main.767061a4.chunk.css",
+    "main.js": "/build/static/js/main.db6e023a.chunk.js",
+    "main.js.map": "/build/static/js/main.db6e023a.chunk.js.map",
+    "runtime-main.js": "/build/static/js/runtime-main.604af7fe.js",
+    "runtime-main.js.map": "/build/static/js/runtime-main.604af7fe.js.map",
+    "static/js/2.2a3801cb.chunk.js": "/build/static/js/2.2a3801cb.chunk.js",
+    "static/js/2.2a3801cb.chunk.js.map": "/build/static/js/2.2a3801cb.chunk.js.map",
+    "index.html": "/build/index.html",
+    "static/css/main.767061a4.chunk.css.map": "/build/static/css/main.767061a4.chunk.css.map",
+    "static/js/2.2a3801cb.chunk.js.LICENSE.txt": "/build/static/js/2.2a3801cb.chunk.js.LICENSE.txt",
+    "static/media/instagram.f0f732de.svg": "/build/static/media/instagram.f0f732de.svg",
+    "static/media/linkedin.638101d0.svg": "/build/static/media/linkedin.638101d0.svg",
+    "static/media/skype.cea4ac0a.svg": "/build/static/media/skype.cea4ac0a.svg",
+    "static/media/twitter.2992c3c9.svg": "/build/static/media/twitter.2992c3c9.svg",
+    "static/media/typeface.3406db74.svg": "/build/static/media/typeface.3406db74.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.604af7fe.js",
+    "static/js/2.2a3801cb.chunk.js",
+    "static/css/main.767061a4.chunk.css",
+    "static/js/main.db6e023a.chunk.js"
+  ]
+}
