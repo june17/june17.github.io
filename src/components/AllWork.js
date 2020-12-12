@@ -99,7 +99,7 @@ const projectsData = [
     }
 ]
 
-function FeaturedProjects() {
+function AllWork() {
     return (
         <div className="row">
             {projectsData.map((item) => (
@@ -111,4 +111,4 @@ function FeaturedProjects() {
     )
 }
 
-export default FeaturedProjects
+export default AllWork

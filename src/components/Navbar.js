@@ -31,7 +31,7 @@ class Header extends React.Component {
                                      <Link to="/" style={menuItemStyle}> Home </Link>
                                  </div>
                                  <div className="col-3">
-                                     <Link to="/" style={menuItemStyle}> Work </Link>
+                                     <Link to="/Work" style={menuItemStyle}> Work </Link>
                                  </div>
                                  <div className="col-3">
                                      <Link to="/play" style={menuItemStyle}> Play </Link>
