@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+}
+
+a {
+  text-decoration: none;
+  color: #0a0a0a;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.onClickText {
+  color: #9523bd;
+  cursor: pointer;
+}
+
+.portfolioHero {
+  padding: 10rem 0;
+}
+
+.portfolioHero h1 {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+}
+
+.portfolioHero p {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0.5rem 0 0 0;
+  color: #5a5a5a;
+}
+
+.projectItem {
+  position: relative;
+  padding: 1rem 0;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
+
+.projectItem h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+}
+
+.projectItem p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  margin-top: 0.5rem;
+}
+
+.projectItemInfoBlock {
+  margin-bottom: 1rem;
+}
+
+.projectItem .projectMeta {
+  padding: 3rem 0 3rem 5rem;
+}
+
+.projectItem .subProject {
+  padding: 1rem 1rem 1.5rem 1rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+.projectItem .subProject:hover {
+  background: #eaeaea;
+}
+
+.projectItem .subProject p {
+  font-size: 0.9rem;
+  margin: 0;
+  color: #5a5a5a;
+}
+
+.projectItem .subProject h4 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  padding: 0;
+}
+
+.darkBlue {
+  background: #065068;
+}
+
+.projectCaseStudyHeader {
+  min-height: 500px;
+}
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+  z-index: 1;
+}
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-out;
+}
