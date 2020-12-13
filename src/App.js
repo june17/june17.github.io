@@ -4,16 +4,15 @@ import Footer from './components/Footer'
 import {
   BrowserRouter as Router,
   Route,
-  Link,
-  Switch,
-  useLocation,
-  withRouter
 } from 'react-router-dom'
 import Play from './components/Play'
 import Work from './components/Work'
 import About from './components/About'
 import DSdock from './components/ds/Dock'
 import Home from './components/Home'
+import SPPose from './components/studentprojects/Poser'
+import ScrollToTop from './components/ScrollToTop'
+import PHStudio from './components/promohunt/PHStudio'
 
 import {
   TransitionGroup,
@@ -23,20 +22,17 @@ import {
 function App() {
   return (
       <Router>
+        <ScrollToTop />
         <Route render={({location}) => (
           <React.Fragment>
             <Navbar />
-            <TransitionGroup>
-              <CSSTransition key={location.key} classNames='fade' timeout={600}>
-                <Switch location = {location}>
-                  <Route exact path='/' component={Home} />
-                  <Route exact path='/work' component={Work} />
-                  <Route path='/play' component={Play}/>
-                  <Route path='/about' component={About} />
-                  <Route path='/dreamspring/dock' component={DSdock} />
-              </Switch>
-            </CSSTransition>
-            </TransitionGroup>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/work' component={Work} />
+            <Route path='/play' component={Play}/>
+            <Route path='/about' component={About} />
+            <Route path='/dreamspring/dock' component={DSdock} />
+            <Route path='/sp/pose' component={SPPose} />
+            <Route path='/ph/studio' component={PHStudio}/>
             <Footer />
           </React.Fragment>
         )} />   
