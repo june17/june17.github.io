@@ -7,7 +7,7 @@ import Skype from '../img/skype.svg'
 
 function Footer() {
     const footerStyle = {
-        margin: '5rem 0 4rem 0'
+        margin: '20rem 0 4rem 0'
     }
     return (
         <div className='row justify-content-center' style={footerStyle}>

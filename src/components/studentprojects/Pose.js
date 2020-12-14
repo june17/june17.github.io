@@ -7,11 +7,11 @@ const Poser = () => (
                 <div className='row'>
                     <div className='col-md-6'>
                             <h2>Pose, a chrome extension</h2>
-                            <p>Chrome Extension</p>
+                            <p>Realtime Audio and Video Project</p>
                             <div>
-                                <p>Type: Side project</p>
-                                <p>Timeline: Dec 2020</p>
-                                <p>Role: Code, design</p>
+                                <p className='metaParagraph'>Type: Student project</p>
+                                <p className='metaParagraph'>Timeline: Dec 2020</p>
+                                <p className='metaParagraph'>Role: Code, design</p>
                             </div>
                     </div>
                     <div className='col-md-6'>
@@ -32,20 +32,6 @@ const Poser = () => (
                         </p>
                     </div>
                 </div>
-                {/* <div className='row'>
-                    <div className='col-md-4'>
-                        <h6>TYPE</h6>
-                        <p>Side project</p>
-                    </div>
-                    <div className='col-md-4'>
-                        <h6>ROLE</h6>
-                        <p>Code, design</p>
-                    </div>
-                    <div className='col-md-4'>
-                        <h6>PLATFORM</h6>
-                        <p>Chrome extension</p>
-                    </div>
-                </div> */}
             </div>
         </div>
         <div className='projectTextContent'>
@@ -99,7 +85,7 @@ const Poser = () => (
                         <h3> Use case </h3>
                         <h4>Assumptions</h4>
                         <p>User has a good command on how to use a computer. The user will have our chrome extension installed in their Chrome browser.
-    </p>
+                        </p>
                         <h4>How it works​</h4>
                         <p>
                             From the moment the user starts using the chrome browser, his usage time is tracked. Warning sounds will be generated if their idle time is nearing the recommended usage time. If he is continuously using it above the recommended usage time, an overlay screen will appear over the tab he is browsing on, which will block him from using it any further and a feedback audio will be played. If he wants to unlock the browser, he will have to perform the physical exercises that appear on the screen. When he starts performing the physical activity, the webcam will start tracking his movements. If he completes the activity, the overlay will go away, and he can continue using the browser. The audio-visual feedback in the form of a progress indicator and other animations will be given to the user while he performs the physical exercises.
@@ -109,6 +95,7 @@ const Poser = () => (
                 <div className='row'>
                     <div className='col-md-10 offset-md-1'>
                         <h3>Low fidelity prototype</h3>
+                        <img src={'https://firebasestorage.googleapis.com/v0/b/portfolio-40aa5.appspot.com/o/ipad.png?alt=media&token=65714925-6aa5-4e6d-a8ee-a404531a17c8'} alt='low fidelity prototype image' width='80%' style={{ 'marginBottom': '5rem'}} />
                     </div>
                 </div>
             </div>
