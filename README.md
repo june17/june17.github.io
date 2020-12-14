@@ -1,6 +1,6 @@
 # june17.github.io
 
-## Live website: htts://arnrj.com
+## Live website: https://arnrj.com
 
 ## Github page: https://june17.github.io
 
