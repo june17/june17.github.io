@@ -10,7 +10,8 @@ import Work from './components/Work'
 import About from './components/About'
 import DSdock from './components/ds/Dock'
 import Home from './components/Home'
-import SPPose from './components/studentprojects/Poser'
+import SPPose from './components/studentprojects/Pose'
+import SPOpenPassport from './components/studentprojects/OpenPassport'
 import ScrollToTop from './components/ScrollToTop'
 import PHStudio from './components/promohunt/PHStudio'
 
@@ -32,6 +33,7 @@ function App() {
             <Route path='/about' component={About} />
             <Route path='/dreamspring/dock' component={DSdock} />
             <Route path='/sp/pose' component={SPPose} />
+            <Route path='/sp/openpassport' component={SPOpenPassport}/>
             <Route path='/ph/studio' component={PHStudio}/>
             <Footer />
           </React.Fragment>
