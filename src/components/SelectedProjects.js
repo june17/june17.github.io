@@ -21,7 +21,7 @@ const ProjectsData = [
         id: 3,
         title: 'OpenPassport',
         about: 'A website that provides information about visa requirements and document checklist for all countries.',
-        image: '',
+        image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-40aa5.appspot.com/o/openpassportthumbnail.mp4?alt=media&token=fdf2dd4e-31a1-4607-9221-39f195a7b24a',
         url:'/sp/openpassport',
         backcolor: '#edffed'
     },

@@ -12,15 +12,15 @@ Openpassport provides information about visa requirements and document checklist
                  <div className='row'>
                      <div className='col-md-10 offset-md-1'>
                         <div className='row projectMetaInfo2'>
-                            <div className='col-md-4'>
+                            <div className='col-4'>
                                 <h6>TIMELINE</h6>
-                                <p>Jun-Aug 2020</p>
+                                <p>Mar-July 2020</p>
                             </div>
-                            <div className='col-md-4'>
+                            <div className='col-4'>
                                 <h6>ROLE</h6>
                                 <p>Code, design</p>
                             </div>
-                            <div className='col-md-4'>
+                            <div className='col-4'>
                                 <h6>PLATFORM</h6>
                                 <p>Web application</p>
                             </div>
@@ -28,20 +28,23 @@ Openpassport provides information about visa requirements and document checklist
                     </div>
                 </div>
             </div>
+               <div className='col-md-10 offset-md-1' style={{'marginBottom': '5rem'}}>
+                    <video width="100%" autoPlay loop >
+                        <source src={'https://firebasestorage.googleapis.com/v0/b/portfolio-40aa5.appspot.com/o/openpassport.mp4?alt=media&token=86f3a2c6-3a49-43af-a041-90d3dfc0e674'} type="video/mp4"/>
+                    </video> 
+                    <h3 style={{'fontSize': '2rem', 'color': 'white', 'margin': '5rem 0 1rem 0'}}>Best time to visit a country</h3>
+                    <img width='100%' src={'https://firebasestorage.googleapis.com/v0/b/portfolio-40aa5.appspot.com/o/desktop-%20details.jpg?alt=media&token=9dd754f0-ed4e-4cc0-910e-58d3b42e17fe'} />
+                    
+                </div>
         </div>
         <div className='projectTextContent'>
-             <div className='container'>
-                <div className='row'>
-                    <div className='col-md-10 offset-md-1' style={{'marginBottom': '5rem'}}>
-                        <h3>What problem does the product solve?</h3>
-                        <p>
-                          
-                        </p>
-                    </div>
+            <div className='container'>
+                 <div className='col-md-10 offset-md-1'>
+                    <h3>Closing Notes</h3>
+                    <p>This project was done during our freetime with one of my close friends. I saw this is an opportunity to master React.js. I coded the entire front end in React. My friend worked on the database and backend code. Due to shortage of time, we temporarily halted the 
+                        development, but the site is live <a style={{'color':'#16411d', 'fontWeight':'500', 'textDecoration': 'underline'}} href='https://openpassport.co' target='_blank' >here</a>
+                    </p>
                 </div>
-            </div>
-            <div className='row blacky'>
-
             </div>
         </div>
     </div>
