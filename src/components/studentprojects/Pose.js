@@ -28,7 +28,7 @@ const Poser = () => (
                     <div className="col-md-6">
                         <h4>Stack</h4>
                         <p>
-                            The project aims to build a realtime sedentary time monitoring tool that would help the users to be mindful about the time they spend sitting in front of the computer and encourage them to take a break to perform physical activities.
+                            pl5.js, ml5.js, PoseNet, javascript, HTML/CSS
                         </p>
                     </div>
                 </div>

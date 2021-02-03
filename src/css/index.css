@@ -35,6 +35,9 @@ h5 {
 .navbar .links {
   text-align: center;
 }
+.navbar .links div {
+  padding: 0;
+}
 
 .darkBlue {
   background: #065068;
@@ -122,12 +125,11 @@ h5 {
 
 .projectItem .subProject {
   padding: 1rem 1rem 1.5rem 1rem;
-  cursor: pointer;
   border-radius: 0.25rem;
 }
-.projectItem .subProject:hover {
+/* .projectItem .subProject:hover {
   background: #eaeaea;
-}
+} */
 
 .projectItem .subProject p {
   font-size: 0.9rem;
@@ -345,4 +347,14 @@ h5 {
 .tabGroup .active {
   background: rgb(75, 175, 219, 1);
   color: white;
+}
+
+.underconstruction {
+  background: #f2eec6;
+  padding: 0.2rem 1rem;
+  text-align: center;
+}
+
+.dribbbleitem {
+  margin-top: 2rem;
 }

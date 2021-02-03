@@ -11,14 +11,14 @@ const Project = (props) => {
                         <p>{props.data.description}</p>
                     </div>
                 </div>
-                <div className="row row-cols-2">
+                <div className="row">
                     {props.data.projects.map((project) => ( 
-                        <Link to={`${project.url}`} key={project.id}> 
-                            <div className='col subProject' >
+                        //<Link to={`${project.url}`} key={project.id}> 
+                            <div className='col-md-6 subProject' >
                                 <h4>{project.title}</h4>
                                 <p>{project.description}</p>
                             </div>
-                        </Link>
+                    // </Link>
                     ))} 
                 </div>
             </div>

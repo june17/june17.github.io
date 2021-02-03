@@ -131,16 +131,15 @@ const PHStudio = () => {
                                 {tabData[active].url.map((image)=>(
                                     <img src={image} alt='no image' style={{'margin': '1rem 0', 'border': '1px solid #eaeaea', 'width': '100%'}} />
                                 ))}
-                            </div>
-                            <div>
+                            </div> 
+                            <div className='col-md-6 '>
                                 <h5>Pros</h5>
                                 <p>{tabData[active].pros}</p>
                             </div>
-                            <div style={{'marginTop':'2rem'}}>
+                            <div className='col-md-6'>
                                 <h5>Cons</h5>
                                 <p>{tabData[active].cons}</p>
                             </div>
-                           
                         </div>
                     </div>
                 </div>
@@ -155,10 +154,17 @@ const PHStudio = () => {
                               
             <div className='row blacky'>
                 <div className='col-md-8 offset-md-2 padding8v'>
-                    <p style={{'marginBottom':'2rem'}}>After comparing the pros and cons of the three concepts, we decided to go with the concept 3 as this concept was able to overcome most of the problems with the existing design.</p>
                     <video width="100%" autoPlay loop >
                         <source src={'https://firebasestorage.googleapis.com/v0/b/portfolio-40aa5.appspot.com/o/promohunteditorLarge.mp4?alt=media&token=d3160cf4-9d00-4b90-83d7-78cb66157801'} type="video/mp4"/>
                     </video>
+                </div>
+            </div>
+             <div className='container'>
+                 <div className='col-md-10 offset-md-1'>
+                    <h3>Closing Notes</h3>
+                    <p>With the redesign we were able to tackle most of the issues with the earlier layout.
+                        However, by analysing the usage patterns we found that many users still forget to save the changes. So we had to make further changes. 
+                    </p>
                 </div>
             </div>
         </div>

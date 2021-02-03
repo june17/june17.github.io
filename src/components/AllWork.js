@@ -37,6 +37,12 @@ const projectsData = [
                 description: `Building DreamSpring's style guide and defining a shared product design vision`,
                 url: '/dreamspring/coin',
             },
+            {
+                id: 6,
+                title: "Diversity and inclusion of illustrations",
+                description: 'Designing a diverse and inclusive illustrations to create a more welcoming experience to our diverse customerbase',
+                url: '/dreamspring/wave',
+            },
         ],
         background: '#FAD2D9',
         id:1
@@ -48,21 +54,15 @@ const projectsData = [
         thumbnail: '',
         projects: [
             {
-                id: 1,
-                title: "Designing for engagement",
-                description: 'blah blah',
-                url: '/hashnode/engagement',
-            },
-            {
                 id: 2,
                 title: "Designing the feed",
-                description: 'blah blah',
+                description: 'One year of designing and analysing the Hashnode feed by repeated iterations and learning for better engagement and friendly conversations.',
                 url:'/hashnode/feed',
             },
             {
                 id: 3,
                 title: "UI Library",
-                description: 'blah blah',
+                description: 'Style guides to build a coherent user interface across Hashnode products, the website and the mobile app.',
                 url:'/hashnode/uilibrary',
             },
         ],

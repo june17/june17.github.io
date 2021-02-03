@@ -33,11 +33,11 @@ class Header extends React.Component {
     }
 
     const blackFont = {
-        'color': '#0a0a0a'
+        'color': '#0a0a0a',
     }
 
     const whiteFont = {
-        'color': '#ffffff'
+        'color': '#ffffff',
     }
 
     var logoColor = 'white'
@@ -47,7 +47,7 @@ class Header extends React.Component {
         menuItemStyle = blackFont
         logoColor = '#0a0a0a'
     }
-    else if (location.pathname ==='/sp/pose' || location.pathname ==='/ph/studio'  ) {
+    else if (location.pathname ==='/sp/pose' || location.pathname ==='/ph/studio' || location.pathname === '/ds/cashflow' ) {
         headerColor = black
         menuItemStyle = whiteFont
         logoColor = 'white'
@@ -69,7 +69,7 @@ class Header extends React.Component {
                 <div className="row navbar">
                  <div className="col-md-10 offset-md-1">
                      <div className='row align-items-center justify-content-center'>
-                         <div className="col-md-4 col-12 logo">
+                         <div className="col-lg-4 col-md-3 col-12 logo">
                             <svg xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
                                 viewBox="0 0 500 200" style={{'enable-background':'new 0 0 250 100', 'width': '200px'}} >
                                 <path fill={logoColor} d="M484.2,107.9c-0.6-1-1.6-1.6-2.8-1.6c-0.5,0-1.1,0.1-1.5,0.4l0,0l0,0c-5,2.8-10,5.3-14.7,7.3c-5.6,2.3-10.7,3.9-15.4,5
@@ -150,15 +150,18 @@ class Header extends React.Component {
                             </svg>
 
                          </div>
-                         <div className="col-md-5 offset-md-3 col-12" style={{textAlign: 'right'}}>
+                         <div className="col-lg-6 offset-lg-2 col-md-9 col-12" style={{textAlign: 'right'}}>
                              <div className="row links" >
-                                 <div className="col-4">
+                                 <div className="col-3">
                                      <Link to="/" style={menuItemStyle}> Home </Link>
                                  </div>
-                                 <div className="col-4">
-                                     <Link to="/Work" style={menuItemStyle}> Industry works </Link>
+                                 <div className="col-3">
+                                     <Link to="/Work" style={menuItemStyle}> Industry Works </Link>
                                  </div>
-                                 <div className="col-4">
+                                 <div className="col-3">
+                                     <a href='https://www.notion.so/Working-Notes-23bc6f4185204c93bceec77708e089f3' style={menuItemStyle}> Working Notes </a>
+                                 </div>
+                                 <div className="col-3">
                                      <Link to="/about" style={menuItemStyle}> About </Link>
                                  </div>
                              </div>
