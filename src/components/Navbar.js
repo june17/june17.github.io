@@ -28,6 +28,10 @@ class Header extends React.Component {
         'background' : '#16411D'
     }
 
+    const doughBlue = {
+        'background' : '#096276'
+    }
+
     const black = {
         'background': '#28282A', 
     }
@@ -57,6 +61,11 @@ class Header extends React.Component {
         menuItemStyle = whiteFont
         logoColor = 'white'
     }
+    else if (location.pathname ==='/dough/onboarding' ) {
+        headerColor = doughBlue
+        menuItemStyle = whiteFont
+        logoColor = 'white'
+    }
     else {
         headerColor = white
         menuItemStyle = blackFont
@@ -75,16 +84,16 @@ class Header extends React.Component {
                          </div>
                          <div className="col-lg-6 offset-lg-2 col-md-9 col-12" style={{textAlign: 'right'}}>
                              <div className="row links" >
-                                 <div className="col-3">
+                                 <div className="col-4">
                                      <Link to="/" style={menuItemStyle}> Home </Link>
                                  </div>
-                                 <div className="col-3">
+                                 <div className="col-4">
                                      <Link to="/Work" style={menuItemStyle}> Industry Works </Link>
                                  </div>
-                                 <div className="col-3">
+                                 {/* <div className="col-3">
                                      <a href='https://www.notion.so/Working-Notes-23bc6f4185204c93bceec77708e089f3' style={menuItemStyle}> Working Notes </a>
-                                 </div>
-                                 <div className="col-3">
+                                 </div> */}
+                                 <div className="col-4">
                                      <Link to="/about" style={menuItemStyle}> About </Link>
                                  </div>
                              </div>

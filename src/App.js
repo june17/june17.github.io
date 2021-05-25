@@ -15,6 +15,7 @@ import SPOpenPassport from './components/studentprojects/OpenPassport'
 import ScrollToTop from './components/ScrollToTop'
 import PHStudio from './components/promohunt/PHStudio'
 import DSCashflow from './components/dreamspring/DSCashflow'
+import Onboarding from './components/dough/onboarding'
 
 import {
   TransitionGroup,
@@ -37,6 +38,7 @@ function App() {
             <Route path='/sp/openpassport' component={SPOpenPassport}/>
             <Route path='/ph/studio' component={PHStudio}/>
             <Route path='/ds/cashflow' component={DSCashflow}/>
+            <Route path='/dough/onboarding' component={Onboarding}/>
             <Footer />
           </React.Fragment>
         )} />   

@@ -2,6 +2,14 @@ import {Link} from 'react-router-dom'
 
 const ProjectsData = [
     {
+        id: 10,
+        title: 'Aha! onboarding',
+        about: 'Redesigning the onboarding experience to improve the self-activation rate.',
+        image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-40aa5.appspot.com/o/dough-thumbnail.mp4?alt=media&token=ef437c63-8cb5-434c-91e5-0045ea81a321',
+        url:'/dough/onboarding',
+        backcolor: '#EFEFFF'
+    },
+    {
         id: 1,
         title: 'Promohunt studio',
         about: 'Redesigning the core layout of a website builder for prolonged use and efficiency.',
@@ -24,14 +32,6 @@ const ProjectsData = [
         image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-40aa5.appspot.com/o/cashflowthumbnail.mp4?alt=media&token=18cdc473-0739-4271-9a3e-5c10e77ca314',
         url:'/ds/cashflow',
         backcolor: '#e8f4ff'
-    },
-    {
-        id: 3,
-        title: 'OpenPassport',
-        about: 'Making a website that provides information about visa requirements and document checklist for all countries.',
-        image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-40aa5.appspot.com/o/openpassportthumbnail.mp4?alt=media&token=fdf2dd4e-31a1-4607-9221-39f195a7b24a',
-        url:'/sp/openpassport',
-        backcolor: '#edffed'
     },
 ]
 

@@ -29,7 +29,6 @@ var tab2 = 0
 var tab3 = 0
 var i = 0
 
-
 const PHStudio = () => {
 
     const [active,setActive] = useState(0);
@@ -83,13 +82,10 @@ const PHStudio = () => {
                 <div className='row'>
                     <div className='col-md-10 offset-md-1'>
                         <h3> Background </h3>
-                        <p>
-                            Promohunt is a tool that automatically displays helpful information to distributors when they visit supplier websites. Promohunt Presentations is a feature that would allow promotional product distributors and suppliers to curate promotional products and share it with their prospective customers. Users can add products to the presentation using a form or through Promohunt's  chrome extension. The browser extension also shows helpful information to distributors when they visit supplier websites.
-                        </p>
+                        <p>Promohunt is a tool that automatically displays helpful information to distributors when they visit supplier websites. Promohunt Presentations is a feature that would allow promotional product distributors and suppliers to curate promotional products and share it with their prospective customers. Users can add products to the presentation using a form or through Promohunt's  chrome extension. The browser extension also shows helpful information to distributors when they visit supplier websites.</p>
                     </div>
-
                     <div className='col-md-10 offset-md-1'>
-                        <h3> Problems </h3>
+                        <h3>Problems with the existing layout</h3>
                         <p>
                             Distributors today are taken to the Product List page. After making edits, intuitively, people visit the preview - which is good.
                             But they do not realise how to edit General information and toggle certain field's visibility.
@@ -105,7 +101,7 @@ const PHStudio = () => {
                             </ul>
                         </p>
                         <div className='row'>
-                        <img src={'https://firebasestorage.googleapis.com/v0/b/portfolio-40aa5.appspot.com/o/ph-problems.png?alt=media&token=a41bf80f-f26a-487b-a2d4-1f428ce8c4b4'} width='100%' style={{'margin': '3rem 0 5rem 0', 'border': '1px solid #eaeaea'}} alt='image'/>
+                            <img src={'https://firebasestorage.googleapis.com/v0/b/portfolio-40aa5.appspot.com/o/ph-problems.png?alt=media&token=a41bf80f-f26a-487b-a2d4-1f428ce8c4b4'} width='100%' style={{'margin': '3rem 0 5rem 0', 'border': '1px solid #eaeaea'}} alt='image'/>
                         </div>
                     </div>
                 </div>

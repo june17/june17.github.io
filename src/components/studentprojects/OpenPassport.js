@@ -42,7 +42,7 @@ Openpassport provides information about visa requirements and document checklist
                  <div className='col-md-10 offset-md-1'>
                     <h3>Closing Notes</h3>
                     <p>This project was done during our freetime with one of my close friends. I saw this is an opportunity to master React.js. I coded the entire front end in React. My friend worked on the database and backend code. Due to shortage of time, we temporarily halted the 
-                        development, but the site is live <a style={{'color':'#16411d', 'fontWeight':'500', 'textDecoration': 'underline'}} href='https://openpassport.co' target='_blank' >here</a>
+                        development, but the site is live <a style={{'color':'#16411d', 'fontWeight':'500', 'textDecoration': 'underline'}} href='https://openpassport.web.app' target='_blank' >here</a>
                     </p>
                 </div>
             </div>
