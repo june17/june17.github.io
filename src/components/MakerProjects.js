@@ -6,8 +6,8 @@ const MakerData = [
         id: 1,
         title: 'Persona based Figma content generator',
         about: 'A figma plugin that generates cover page and UX copy',
-        image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-40aa5.appspot.com/o/openpassportthumbnail.mp4?alt=media&token=fdf2dd4e-31a1-4607-9221-39f195a7b24a',
-        url:'/sp/openpassport',
+        image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-40aa5.appspot.com/o/figmaplugin-thumb.mp4?alt=media&token=7420e371-fbcb-46a1-86ea-cfe1465a9a8f',
+        url:'/',
         backcolor: '#FFF9EA'
     },
     {
@@ -16,7 +16,7 @@ const MakerData = [
         about: 'Making a website that provides information about visa requirements and document checklist for all countries.',
         image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-40aa5.appspot.com/o/openpassportthumbnail.mp4?alt=media&token=fdf2dd4e-31a1-4607-9221-39f195a7b24a',
         url:'/sp/openpassport',
-        backcolor: '#edffed'
+        backcolor: '#edffed',
     }
 ]
 

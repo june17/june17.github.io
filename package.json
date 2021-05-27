@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://june17.github.io/",
   "dependencies": {
+    "@craco/craco": "^6.1.2",
     "@headlessui/react": "^1.2.0",
     "@heroicons/react": "^1.0.1",
     "@testing-library/jest-dom": "^5.11.4",
@@ -42,5 +43,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.2"
   }
 }
